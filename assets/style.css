@@ -1,0 +1,45 @@
+body {
+	font-family: helvetica;
+	background: #fffaed;
+	text-align: center;
+}
+h1 {
+	font-size: 80px;
+	line-height: 60px;
+	margin: 30px 0 140px 0;
+	color: #ff0c00;
+}
+.container {
+	display: flex;
+}
+.character{
+	margin: 10px;
+	width: 25%;
+}
+.charactername {
+	color: #ff0c00;
+}
+img {
+	display: block;
+	margin: auto;
+	width: 60%;
+	height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+	.container {
+		display: initial;
+	}
+	h1 {
+		margin: 18px 0 18px 0;
+	}
+	.character {
+		width: 100%;
+	}
+	.characterbio {
+		margin: 0 30px 20px 30px;
+	}
+	.charactername {
+		margin: 80px 0 0 0;
+	}
+}
